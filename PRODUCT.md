@@ -37,16 +37,15 @@ A one-person group rooted in fieldwork: an ecological consultancy, products buil
 
 ## Evidence on Hand
 
-- Wouter's own photographs from waarneming.nl (user 49386), max 1000 px on the long side, used with his permission (09-10-2026). Chosen set in `foto/`.
 - The parts' logos in `logos/`.
 - No testimonials, client names or figures may be invented.
 
 ## Product Principles
 
-1. Field first: the group exists because of time outside; the page should feel that.
+1. Business first: the page reads as a professional company, not as a nature site.
 2. Every part keeps its own face; the group is the frame, not a uniform.
 3. Restraint in words, conviction in form.
 
 ## Direction
 
-Wouter (09-10-2026), after seeing a plain first version ("heel saai en amateuristisch"): a classic, clear but beautiful company site in the style of a good annual report. Not a concept piece. Own photos carry the page.
+Wouter (09-10-2026), after seeing a plain first version ("heel saai en amateuristisch"): a classic, clear but beautiful company site in the style of a good annual report. Not a concept piece. Then (09-10-2026): "ik wil niet allemaal natuurfoto's erop, ik wil het zakelijk en professioneel". No nature photography; the brand mark carries the page.
