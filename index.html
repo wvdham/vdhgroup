@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VDH Group</title>
+<meta name="description" content="VDH Group is de koepel van Van Der Ham Ecologie en de producten, natuurkanalen en vogeltools die daaromheen zijn ontstaan.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600&display=swap">
+<meta property="og:title" content="VDH Group">
+<meta property="og:description" content="De koepel van Van Der Ham Ecologie en de producten, natuurkanalen en vogeltools daaromheen.">
+<meta property="og:url" content="https://vdhgroup.nl/">
+<style>
+/* Bewust altijd licht, net als de stamboom: het logo is nachtblauw met één lichtblauw blaadje */
+:root{
+  --bg:#f4f6f9; --surface:#fff; --ink:#1c2436; --muted:#5d6678; --line:#d3d9e3;
+  --navy:#24324F; --sky:#8EC5E8;
+  --t1:#24324F; --t2:#3D5A80; --t3:#6F8FB8; --t4:#8EC5E8;
+  --f-display:"Young Serif", Georgia, serif;
+  --f-body:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+header{padding:56px 0 40px}
+.brand{display:block;width:220px;max-width:70%;height:auto}
+.lead{font-family:var(--f-display);font-size:clamp(1.5rem,3.2vw,2.1rem);line-height:1.25;margin:28px 0 0;max-width:30ch;text-wrap:balance}
+
+main{padding-bottom:56px;display:flex;flex-direction:column;gap:36px}
+.tak{border-top:4px solid var(--c);padding-top:14px}
+.tak h2{font-family:var(--f-display);font-weight:400;font-size:1.3rem;margin:0 0 14px}
+.kaarten{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.kaart{display:flex;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;transition:border-color .15s,transform .15s}
+.kaart:hover,.kaart:focus-visible{border-color:var(--c);transform:translateY(-1px)}
+.kaart:focus-visible{outline:2px solid var(--c);outline-offset:2px}
+.lt{flex:none;width:52px;height:52px;border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line)}
+.lt img{width:100%;height:100%;object-fit:contain;display:block}
+.lt.pad img{width:80%;height:80%}
+.tekst{min-width:0}
+.tekst b{display:block;font-weight:600;font-size:1.02rem}
+.tekst span{display:block;color:var(--muted);font-size:.92rem;line-height:1.35}
+.tekst small{display:block;color:var(--t2);font-size:.82rem;margin-top:3px}
+
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:.85rem}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+footer img{height:22px;width:auto;display:block}
+
+@media (max-width:560px){
+  header{padding:36px 0 28px}
+  .kaarten{grid-template-columns:minmax(0,1fr)}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <img class="brand" src="logos/vdh-group-liggend.svg" alt="VDH Group" width="220" height="53">
+  <p class="lead">De koepel van Van Der Ham Ecologie en alles wat daaromheen is ontstaan.</p>
+</header>
+
+<main class="wrap">
+
+  <section class="tak" style="--c:var(--t1)">
+    <h2>Ecologie</h2>
+    <div class="kaarten">
+      <a class="kaart" href="https://www.vanderhamecologie.nl/">
+        <span class="lt"><img src="logos/vdhe.svg" alt=""></span>
+        <span class="tekst"><b>Van Der Ham Ecologie</b><span>Ecologisch onderzoek en advies</span><small>vanderhamecologie.nl</small></span>
+      </a>
+      <a class="kaart" href="https://hieon.nl/">
+        <span class="lt pad"><img src="logos/hieon.svg" alt=""></span>
+        <span class="tekst"><b>HIEON</b><span>Heb ik ecologisch onderzoek nodig?</span><small>hieon.nl</small></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="tak" style="--c:var(--t2)">
+    <h2>Producten</h2>
+    <div class="kaarten">
+      <a class="kaart" href="https://checkjequickscan.nl/">
+        <span class="lt pad"><img src="logos/checkjequickscan.png" alt=""></span>
+        <span class="tekst"><b>checkjequickscan</b><span>Juridische controle van ecologische rapporten</span><small>checkjequickscan.nl</small></span>
+      </a>
+      <a class="kaart" href="https://batreel.com/">
+        <span class="lt"><img src="logos/batreel.svg" alt=""></span>
+        <span class="tekst"><b>BatReel</b><span>Warmtebeelden afgezocht op vleermuizen</span><small>batreel.com</small></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="tak" style="--c:var(--t3)">
+    <h2>Natuurmedia</h2>
+    <div class="kaarten">
+      <a class="kaart" href="https://natuurspeld.nl/">
+        <span class="lt"><img src="logos/natuurspeld.png" alt=""></span>
+        <span class="tekst"><b>NatuurSpeld</b><span>Natuurtips van lezers</span><small>natuurspeld.nl</small></span>
+      </a>
+      <a class="kaart" href="https://www.instagram.com/nachtvlindersnl/">
+        <span class="lt"><img src="logos/nachtvlindersnl.png" alt=""></span>
+        <span class="tekst"><b>NachtvlindersNL</b><span>Nachtvlinders op Instagram</span><small>@NachtvlindersNL</small></span>
+      </a>
+      <a class="kaart" href="https://investedbirding.com/">
+        <span class="lt"><img src="logos/investedbirding.png" alt=""></span>
+        <span class="tekst"><b>Invested Birding</b><span>Weblog over vogels en reizen</span><small>investedbirding.com</small></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="tak" style="--c:var(--t4)">
+    <h2>Vogellab</h2>
+    <div class="kaarten">
+      <a class="kaart" href="https://birdsonthespectrum.com/">
+        <span class="lt"><img src="logos/botspectrum.svg" alt=""></span>
+        <span class="tekst"><b>Birds on the Spectrum</b><span>Sonogrammen en roepdeterminatie</span><small>birdsonthespectrum.com</small></span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 VDH Group</span>
+  </div>
+</footer>
+
+</body>
+</html>
