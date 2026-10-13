@@ -79,6 +79,14 @@ figcaption b{font-weight:600;color:var(--ink)}
 .overzicht h2{font-size:1.75rem;line-height:1.1}
 .overzicht span{color:var(--muted);font-size:.93rem;line-height:1.5}
 
+/* ---------- kerncijfers ---------- */
+.cijfers{padding:clamp(44px,6vw,80px) 0 0}
+.cijfers dl{margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,3vw,40px)}
+.cijfers div{border-top:2px solid var(--navy);padding-top:18px}
+.cijfers dt{font-family:var(--f-display);font-size:clamp(2.6rem,5vw,4.2rem);line-height:1;color:var(--navy-deep);letter-spacing:-.01em;font-variant-numeric:lining-nums}
+.cijfers dd{margin:12px 0 0;color:var(--muted);font-size:.96rem;line-height:1.45;max-width:24ch}
+.cijfers .peil{margin:28px 0 0;font-size:.8rem;color:var(--muted)}
+
 /* ---------- takken ---------- */
 .tak{padding:clamp(56px,7vw,96px) 0}
 .tak + .tak{padding-top:0}
@@ -112,6 +120,7 @@ figcaption b{font-weight:600;color:var(--ink)}
 
 /* ---------- smaller ---------- */
 @media (max-width:980px){
+  .cijfers dl{grid-template-columns:repeat(2,minmax(0,1fr))}
   .overzicht ol{grid-template-columns:repeat(2,minmax(0,1fr))}
   .overzicht li:nth-child(3){border-left:0}
   .overzicht li:nth-child(n+3){border-top:1px solid var(--line)}
@@ -184,6 +193,18 @@ figcaption b{font-weight:600;color:var(--ink)}
       <li><a href="#natuurmedia"><svg class="blad" aria-hidden="true" style="color:var(--navy)"><use href="#b" fill="currentColor"/></svg><h2>Natuurmedia</h2><span>NatuurSpeld, NachtvlindersNL en Invested Birding</span></a></li>
       <li><a href="#vogellab"><svg class="blad" aria-hidden="true" style="color:var(--sky)"><use href="#b" fill="currentColor"/></svg><h2>Vogellab</h2><span>Birds on the Spectrum</span></a></li>
     </ol>
+  </section>
+
+  <section class="cijfers" aria-label="Kerncijfers">
+    <div class="wrap">
+      <dl>
+        <div><dt>8</dt><dd>onderdelen in vier takken</dd></div>
+        <div><dt>3.400+</dt><dd>volgers van NatuurSpeld en NachtvlindersNL</dd></div>
+        <div><dt>12.000+</dt><dd>vergunningdossiers gelezen voor checkjequickscan</dd></div>
+        <div><dt>400+</dt><dd>punten waarop checkjequickscan een rapport controleert</dd></div>
+      </dl>
+      <p class="peil">Stand oktober 2026</p>
+    </div>
   </section>
 
   <section class="tak" id="ecologie">
